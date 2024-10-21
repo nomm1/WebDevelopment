@@ -1,0 +1,156 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+
+header {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+    height: 90px;
+}
+
+.logo {
+    font-size: 25px;
+    font-weight: bold;
+    font-family:MonoLisa;
+}
+.tranquil {
+    color: #f4a11d; 
+}
+
+.ease {
+    color: #030d3ce3; 
+}
+nav{
+    margin-left: auto;
+    margin-right: 20px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 25px;
+}
+
+nav ul li {
+    position: relative;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #3d2672;
+    padding: 10px;
+}
+nav ul li a.active {
+    border-bottom: 2px solid #3d2672;
+}
+.dropdown {
+    position: relative; 
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    top: calc(100% + 10px); 
+    width: 120px; 
+    background-color: #fff;
+    transform: translateX(-30%);
+    border: 1px solid #e0e0e0; 
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); 
+    z-index: 1;
+}
+
+.dropdown-content li {
+    list-style: none;
+}
+
+.dropdown-content li:last-child {
+    border-bottom: none; 
+}
+
+.dropdown-content li a {
+    display:block;
+    padding: 12px 16px; 
+    text-decoration: none; 
+    color: #333; 
+    font-family: 'Arial', sans-serif; 
+    font-size: 14px; 
+    margin:0;
+}
+
+.dropdown-content li a:hover { 
+    color: #ff6600; 
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.user-icon {
+    font-size: 20px;
+    cursor: pointer;
+}
+
+main {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img3{
+width: 35%;
+float: left;
+margin-left: -50px;
+margin-top:-43px;
+}
+
+.mental-health-info {
+    padding-top: 30px;
+    text-align: left; 
+    margin: 20px 0; 
+}
+
+.mental-health-info h2 {
+    
+    text-align: left; 
+    margin: 30px;;
+}
+
+.prioritize {
+    color: #030d3ce3; 
+}
+
+.mental-health {
+    color: #f4a11d; 
+}
+
+.buttons {
+    display: flex;
+    gap: 20px;
+    justify-content: flex-start;
+    margin-top: 50px;
+    padding-left: 160px; 
+}
+
+.buttons button {
+    background-color: #f4a11d;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 25px;
+
+}
+
+.buttons button:hover {
+    background-color: #f4a21dd3;
+}
